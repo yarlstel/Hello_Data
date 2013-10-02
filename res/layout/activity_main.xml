@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:contentDescription="Pic of Data"
+        android:contentDescription="@string/pic_of_data"
         android:onClick="onClick"
         android:src="@drawable/data" />
 
@@ -25,7 +25,23 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:text="@string/hello_world" />
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/butHello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="butHello_Click"
+        android:text="@string/butHello_string" />
+    
+    <Button 
+        android:id="@+id/ButCrowsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/butHello"
+        android:text="@string/ButCrowsCounter_string"/>
 
 </RelativeLayout>

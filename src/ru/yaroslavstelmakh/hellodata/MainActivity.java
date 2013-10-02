@@ -4,15 +4,18 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	TextView tvHello;
+	Button butCrowsCounter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);        
-        setContentView(R.layout.activity_main);        
+        setContentView(R.layout.activity_main); 
+        butCrowsCounter = (Button)findViewById(R.id.ButCrowsCounter);
         tvHello = (TextView) findViewById(R.id.textView1);
     }
 
@@ -24,7 +27,11 @@ public class MainActivity extends Activity {
         return true;
     }
     public void onClick(View v) {
-		tvHello.setText("Hello Data!");
+		tvHello.setText("Hello Data");
 	}
+    
+    public void butHello_Click(View v) {
+    	tvHello.setText("Hello Data2");
+    }
     
 }
