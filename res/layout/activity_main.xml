@@ -37,11 +37,20 @@
         android:text="@string/butHello_string" />
     
     <Button 
-        android:id="@+id/ButCrowsCounter"
+        android:id="@+id/butCrowsCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/butHello"
-        android:text="@string/ButCrowsCounter_string"/>
-
+        android:text="@string/butCrowsCounter_string"/>
+    
+    <Button 
+        android:id="@+id/butCatsCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/butCrowsCounter"
+        android:onClick="butCats_Click"
+        android:text="@string/butCatsCounter_string"/>
+    
 </RelativeLayout>

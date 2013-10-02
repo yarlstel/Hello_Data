@@ -11,20 +11,20 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	TextView tvHello;
 	Button butCrowsCounter;
-	int count = 0;
+	int count = 0, count_cats = 0;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState) {    	
         super.onCreate(savedInstanceState);        
         setContentView(R.layout.activity_main); 
-        butCrowsCounter = (Button)findViewById(R.id.ButCrowsCounter);
+        butCrowsCounter = (Button)findViewById(R.id.butCrowsCounter);
         tvHello = (TextView) findViewById(R.id.textView1);
         butCrowsCounter.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				tvHello.setText("Я насчитал " + ++count + "ворон");
+				tvHello.setText("Я насчитал " + ++count + " ворон и " + count_cats + " котов.");
 			}
 		});
     }
@@ -42,6 +42,10 @@ public class MainActivity extends Activity {
     
     public void butHello_Click(View v) {
     	tvHello.setText("Hello Data2");
+    }
+    
+    public void butCats_Click(View v) {
+    	tvHello.setText("Я насчитал " + count + " ворон и " + ++count_cats + " котов.");
     }
     
 }

@@ -9,6 +9,7 @@
     <string name="butHello_string">Поздороваться</string>
     <string name="Hello_Data">Hello Data</string>
     <string name="Hello_Data2">Hello Data2</string>
-    <string name="ButCrowsCounter_string">Считаем ворон</string>
-
+    <string name="butCrowsCounter_string">Считаем ворон</string>
+    <string name="butCatsCounter_string">Считаем котов</string>
+    
 </resources>
