@@ -4,5 +4,6 @@
     <string name="app_name">Hello Data</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <color name="background_color">#0fcfcb</color>
 
 </resources>
