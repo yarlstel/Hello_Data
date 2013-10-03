@@ -9,23 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:contentDescription="@string/pic_of_data"
-        android:onClick="onClick"
-        android:src="@drawable/data" />
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButton1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp" />
+        android:layout_marginTop="24dp"
+        android:text="@string/unpressed" />
 
     <Button
         android:id="@+id/butHello"
@@ -40,7 +31,7 @@
         android:id="@+id/butCrowsCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/butHello"
         android:text="@string/butCrowsCounter_string"/>
     
@@ -48,9 +39,49 @@
         android:id="@+id/butCatsCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
         android:layout_below="@+id/butCrowsCounter"
         android:onClick="butCats_Click"
         android:text="@string/butCatsCounter_string"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/pic_of_data"
+        android:onClick="onClick"
+        android:src="@drawable/data" />
+    
+    <Button
+        android:id="@+id/butRed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:background="@color/background_red"
+        android:layout_below="@+id/butCatsCounter"
+        android:layout_centerHorizontal="true"
+        android:onClick="butCats_Click"
+        android:text="@string/butRed_string" />
+
+    <Button
+        android:id="@+id/butYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_yellow"
+        android:layout_below="@+id/butRed"
+        android:layout_centerHorizontal="true"
+        android:onClick="butCats_Click"
+        android:text="@string/butYellow_string" />
+    
+    <Button
+        android:id="@+id/butGreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_green"
+        android:layout_below="@+id/butYellow"
+        android:layout_centerHorizontal="true"
+        android:onClick="butCats_Click"
+        android:text="@string/butGreen_string" />
     
 </RelativeLayout>

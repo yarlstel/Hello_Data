@@ -12,6 +12,9 @@ public final class R {
     }
     public static final class color {
         public static final int background_color=0x7f060000;
+        public static final int background_green=0x7f060003;
+        public static final int background_red=0x7f060001;
+        public static final int background_yellow=0x7f060002;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -28,12 +31,15 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int action_settings=0x7f090005;
+        public static final int action_settings=0x7f090008;
         public static final int butCatsCounter=0x7f090004;
         public static final int butCrowsCounter=0x7f090003;
+        public static final int butGreen=0x7f090007;
         public static final int butHello=0x7f090002;
-        public static final int imageButton1=0x7f090000;
-        public static final int textView1=0x7f090001;
+        public static final int butRed=0x7f090005;
+        public static final int butYellow=0x7f090006;
+        public static final int imageButton1=0x7f090001;
+        public static final int textView1=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -48,9 +54,13 @@ public final class R {
         public static final int app_name=0x7f050000;
         public static final int butCatsCounter_string=0x7f050008;
         public static final int butCrowsCounter_string=0x7f050007;
+        public static final int butGreen_string=0x7f05000b;
         public static final int butHello_string=0x7f050004;
+        public static final int butRed_string=0x7f050009;
+        public static final int butYellow_string=0x7f05000a;
         public static final int hello_world=0x7f050002;
         public static final int pic_of_data=0x7f050003;
+        public static final int unpressed=0x7f05000c;
     }
     public static final class style {
         /** 
