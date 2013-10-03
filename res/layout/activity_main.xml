@@ -1,5 +1,7 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout     
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativelayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
@@ -61,7 +63,7 @@
 		android:background="@color/background_red"
         android:layout_below="@+id/butCatsCounter"
         android:layout_centerHorizontal="true"
-        android:onClick="butCats_Click"
+        android:onClick="butColor_Click"
         android:text="@string/butRed_string" />
 
     <Button
@@ -71,7 +73,7 @@
         android:background="@color/background_yellow"
         android:layout_below="@+id/butRed"
         android:layout_centerHorizontal="true"
-        android:onClick="butCats_Click"
+        android:onClick="butColor_Click"
         android:text="@string/butYellow_string" />
     
     <Button
@@ -81,7 +83,6 @@
         android:background="@color/background_green"
         android:layout_below="@+id/butYellow"
         android:layout_centerHorizontal="true"
-        android:onClick="butCats_Click"
         android:text="@string/butGreen_string" />
     
 </RelativeLayout>
