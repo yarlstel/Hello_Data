@@ -14,5 +14,10 @@
     <string name="butYellow_string">Жёлтый</string>
     <string name="butGreen_string">Зелёный</string>
     <string name="unpressed">Нажатий не было</string>
+    <string name="about_text">У Лукоморья дуб зелёный;\n
+        					Злотая цепь на дубе том:\n
+        					И днём и ночью <b>кот учёный</b>\n
+        					Всё ходит по цепи кругом;\n</string>
+    <string name="about_title">О программе</string>        					
     
 </resources>
