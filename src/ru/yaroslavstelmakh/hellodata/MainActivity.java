@@ -2,6 +2,7 @@ package ru.yaroslavstelmakh.hellodata;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -53,11 +54,30 @@ public class MainActivity extends Activity {
         return true;
     }
     public void onClick(View v) {
-		tvHello.setText("Hello Data");
+    	Intent intent;
+    	switch (v.getId()) {
+    	case R.id.butHello:
+    		tvHello.setText("Hello Data");
+    		break;
+    	case R.id.butSecond:
+    		intent = new Intent(MainActivity.this, SecondActivity.class);
+    		startActivity(intent);
+    		break;
+    	case R.id.butDemo:
+    		intent = new Intent(MainActivity.this, PassingDataDemoActivity.class);
+    		startActivity(intent);
+    		break;
+    	}
 	}
     
     public void butHello_Click(View v) {
     	tvHello.setText("Hello Data2");
+    }
+    
+    public void butAbout_Click(View v)
+    {
+    	Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+    	startActivity(intent);
     }
     
     public void butCats_Click(View v) {

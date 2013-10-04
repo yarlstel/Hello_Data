@@ -17,7 +17,15 @@
     <string name="about_text">У Лукоморья дуб зелёный;\n
         					Злотая цепь на дубе том:\n
         					И днём и ночью <b>кот учёный</b>\n
-        					Всё ходит по цепи кругом;\n</string>
-    <string name="about_title">О программе</string>        					
+        					Всё ходит по цепи кругом;\n
+        					Идёт <b>направо</b> - песнь заводит\n<b>Налево</b> - сказку говорит.</string>
+    <string name="about_title">О программе</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_demo">Демо</string>
+    <string name="title_activity_privet">Привет</string>
+    <string name="to_whom">Кому:</string>
+    <string name="description">Описание:</string>
+    <string name="send">Передать:</string>
     
+
 </resources>

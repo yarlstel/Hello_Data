@@ -84,5 +84,36 @@
         android:layout_below="@+id/butYellow"
         android:layout_centerHorizontal="true"
         android:text="@string/butGreen_string" />
+
+    <Button
+        android:id="@+id/butAbout"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/butGreen"
+        android:layout_below="@+id/butGreen"
+        android:onClick="butAbout_Click"
+        android:text="@string/about_title" />
+
+    <Button
+        android:id="@+id/butSecond"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butAbout"
+        android:layout_alignBottom="@+id/butAbout"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:onClick="onClick"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/butDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/butSecond"
+        android:layout_alignBottom="@+id/butSecond"
+        android:layout_toRightOf="@+id/textView1"
+        android:onClick="onClick"
+        android:text="Demo" />
     
 </RelativeLayout>

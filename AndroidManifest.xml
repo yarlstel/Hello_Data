@@ -22,6 +22,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="ru.yaroslavstelmakh.hellodata.AboutActivity"
+            android:label="@string/about_title" >
+        </activity>
+        <activity
+            android:name="ru.yaroslavstelmakh.hellodata.SecondActivity"
+            android:label="@string/title_activity_second" >            
+        </activity>
+        <activity 
+            android:name="ru.yaroslavstelmakh.hellodata.PassingDataDemoActivity"
+            android:label="@string/title_activity_demo">
+        </activity>"
+        <activity 
+            android:name="ru.yaroslavstelmakh.hellodata.PrivetActivity"
+            android:label="@string/title_activity_privet">            
+        </activity>
     </application>
 
 </manifest>
