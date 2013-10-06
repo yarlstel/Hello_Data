@@ -32,7 +32,7 @@ public final class R {
     }
     public static final class id {
         public static final int about_content=0x7f090000;
-        public static final int action_settings=0x7f090011;
+        public static final int action_settings=0x7f090012;
         public static final int butAbout=0x7f09000a;
         public static final int butCatsCounter=0x7f090006;
         public static final int butCrowsCounter=0x7f090005;
@@ -42,9 +42,10 @@ public final class R {
         public static final int butRed=0x7f090007;
         public static final int butSecond=0x7f09000b;
         public static final int butYellow=0x7f090008;
-        public static final int button1=0x7f090010;
+        public static final int button1=0x7f090011;
         public static final int editText_description=0x7f09000f;
         public static final int editText_toWhom=0x7f09000d;
+        public static final int editText_who=0x7f090010;
         public static final int imageButton1=0x7f090003;
         public static final int relativelayout=0x7f090001;
         public static final int textView1=0x7f090002;
@@ -83,6 +84,7 @@ public final class R {
         public static final int title_activity_second=0x7f06000f;
         public static final int to_whom=0x7f060012;
         public static final int unpressed=0x7f06000c;
+        public static final int who=0x7f060015;
     }
     public static final class style {
         /** 

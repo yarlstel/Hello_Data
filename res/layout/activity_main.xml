@@ -110,9 +110,8 @@
         android:id="@+id/butDemo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/butSecond"
-        android:layout_alignBottom="@+id/butSecond"
-        android:layout_toRightOf="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/butSecond"
         android:onClick="onClick"
         android:text="Demo" />
     

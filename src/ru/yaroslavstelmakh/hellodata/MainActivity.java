@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
     public void onClick(View v) {
     	Intent intent;
     	switch (v.getId()) {
-    	case R.id.butHello:
+    	case R.id.imageButton1:
     		tvHello.setText("Hello Data");
     		break;
     	case R.id.butSecond:
